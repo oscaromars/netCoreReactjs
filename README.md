@@ -1,6 +1,7 @@
 # Demostración de .NET Core 8 + React 17 + SQL Server Express 2022
 
 **Fecha:** 28 de Octubre de 2024
+**Nombre:** Oscar Omar Sanchez
 
 ## Descripción
 demostración .NET Core 8 con React 17 y SQL Server Express 2022. 
