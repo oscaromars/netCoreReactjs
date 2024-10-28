@@ -1,0 +1,6 @@
+@Formaapp_HostAddress = http://localhost:5265
+
+GET {{Formaapp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

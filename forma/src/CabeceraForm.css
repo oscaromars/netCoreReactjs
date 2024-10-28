@@ -1,0 +1,189 @@
+/* Contenedor principal */
+.container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Estilos de carga y error */
+  .loading {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .error-message {
+    color: #dc3545;
+    background-color: #f8d7da;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Botones */
+  .btn-cabecera,
+  .btn-delete,
+  .btn-edit,
+  .btn-add,
+  .btn-add-detail,
+  .btn-save,
+  .btn-cancel {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-cabecera {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .btn-cabecera:hover {
+    background-color: #218838;
+  }
+  
+  .btn-delete {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .btn-delete:hover {
+    background-color: #c82333;
+  }
+  
+  .btn-edit {
+    background-color: #ffc107;
+    color: black;
+  }
+  
+  .btn-edit:hover {
+    background-color: #e0a800;
+  }
+  
+  .btn-add,
+  .btn-add-detail,
+  .btn-save,
+  .btn-cancel {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .btn-add:hover,
+  .btn-add-detail:hover,
+  .btn-save:hover,
+  .btn-cancel:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos de inputs y selects */
+  .input-field,
+  .input-table-name,
+  .input-new-detail,
+  .input-edit,
+  .select-detail-type,
+  .select-edit {
+    margin-right: 5px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    width: 200px; 
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s;
+  }
+
+  .input-field {
+    background-color: #f0f8ff;
+  }
+
+  .input-field:focus,
+  .input-table-name:focus,
+  .input-new-detail:focus,
+  .input-edit:focus,
+  .select-detail-type:focus,
+  .select-edit:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Estilo para el formulario de detalles */
+  .detalles-form {
+    margin-top: 20px;
+  }
+  
+  /* Estilo para elementos de detalles */
+  .detalle-item {
+    margin-bottom: 15px;
+  }
+  
+  /* Estilos de popup */
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px; 
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-edit,
+  .select-edit {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+  }
+  
+  .input-edit:focus,
+  .select-edit:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 600px) {
+    .input-field,
+    .input-table-name,
+    .input-new-detail,
+    .input-edit,
+    .select-detail-type,
+    .select-edit {
+      width: 100%; 
+    }
+  
+    .btn-cabecera,
+    .btn-delete,
+    .btn-edit,
+    .btn-add,
+    .btn-add-detail,
+    .btn-save,
+    .btn-cancel {
+      width: 100%; 
+    }
+  }
+  
