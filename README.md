@@ -25,3 +25,8 @@ demostración .NET Core 8 con React 17 y SQL Server Express 2022.
 - Instalar / actualizar dependencias de React  en la ruta /forma
 - Compilar y ejecutar Backend
 - Ejecutar Frontend
+  
+![Screenshot (2380)](https://github.com/user-attachments/assets/377b135a-610c-4388-a636-b30ccb4b92bb)
+
+
+![Screenshot (2382)](https://github.com/user-attachments/assets/851434a7-3e7c-48ac-aa7d-1bef60508547)
